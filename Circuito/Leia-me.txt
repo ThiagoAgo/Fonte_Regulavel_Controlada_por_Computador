@@ -1,0 +1,19 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Se você não entender o circuito é recomendo estudar um pouco sobre “Amplificadores operacionais” e “Amplificador não inversor” caso ache necessário. 	 +
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Se quiser testar o circuito em uma simulação no Protheus os proximos passos devem ser seguidos:
+
+1 - Gerar o arquivo binário na IDE do arduino.
+ 	# Para isso basta selecionar a opção “Verify” na IDE, caso não encontre é a opção antes “upload”.
+	# No console da IDE procure pele arquivo terminado em .Hex e copie o caminho.
+	# Ex: C:\\Users\\Nome\\AppData\\Local\\Temp\\arduino-sketch-7AD003483F7935064E10963C43BAD71E/Arduino.ino.hex
+
+2 - Adicionar o arquivo .Hex no Protheus .
+	# Abra o Protheus de dois clicks no ATMEGA328P(U1)  colo o caminho encontrado no item anterior na caixa “Program File” e aperte OK
+
+
+Obs: caso altere o código será necessário somente selecionar a opção verificar IDE do arduido sem repetir os passos Anteriores.

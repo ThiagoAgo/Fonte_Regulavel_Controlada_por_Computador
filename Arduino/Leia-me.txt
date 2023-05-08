@@ -1,0 +1,2 @@
+O projeto foi incialmente pensado para funcionar em um arduino uno, mas com 
+pequenas modificações é possível usar outro microcontrolador 
